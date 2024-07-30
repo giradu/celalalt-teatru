@@ -162,7 +162,6 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1.3rem;
   line-height: 1.385;
-  text-transform: uppercase;
   letter-spacing: .16rem;
 }
 
@@ -1265,7 +1264,6 @@ input::-moz-focus-inner {
   font-family: "metropolis-medium", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  text-transform: uppercase;
   letter-spacing: .3rem;
   color: white;
   margin-top: 0;
@@ -1300,10 +1298,13 @@ input::-moz-focus-inner {
   overflow: hidden;
 }
 
+.home-content__main .font-size-20 {
+  font-size: 4rem;
+}
+
 .home-content__text p {
   font-size: 1.8rem;
   line-height: 2;
-  color: rgba(255, 255, 255, 0.3);
   margin-top: 6.6rem;
   margin-right: 15%;
 }
@@ -2163,7 +2164,6 @@ html.no-csstransitions .home-content__main {
   border: 1px solid rgba(255, 255, 255, 0.12);
   font-family: "metropolis-medium", sans-serif;
   font-size: 12px;
-  text-transform: uppercase;
   letter-spacing: .3rem;
   color: white;
   height: 42px;
