@@ -63,7 +63,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.765;
-  color: #757575;
+  color: #d3d3d3;
   margin: 0;
   padding: 0;
 }
@@ -95,7 +95,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "domine-regular", serif;
+  /* font-family: "domine-regular", serif; */
   color: #000000;
   font-style: normal;
   font-weight: normal;
