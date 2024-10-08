@@ -1228,7 +1228,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 60px;
+  right: 30px;
   top: 36px;
 }
 
@@ -1243,8 +1243,7 @@ input::-moz-focus-inner {
 }
 
 .home-logo img {
-  width: 100px;
-  height: 25px;
+  height: 105px;
 }
 
 
@@ -1300,6 +1299,10 @@ input::-moz-focus-inner {
 
 .home-content__main .font-size-20 {
   font-size: 4rem;
+}
+
+.tiktok-link-icon {
+  background-image: url('images/icons/tiktok.svg');
 }
 
 .home-content__text p {
@@ -1674,7 +1677,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-logo {
-    right: 35px;
+    right: 0;
   }
 
   .home-content h1 {
@@ -1975,12 +1978,12 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-logo {
-    right: 30px;
+    top: 15px;
+    right: 0;
   }
 
   .home-logo img {
-    width: 95px;
-    height: 24px;
+    height: 74px;
   }
 
   .home-content h1 {
