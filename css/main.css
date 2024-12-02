@@ -53,7 +53,7 @@ html {
 html,
 body {
   height: 100%;  /* prevent horizontal scrolling */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -63,7 +63,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.765;
-  color: #757575;
+  color: #d3d3d3;
   margin: 0;
   padding: 0;
 }
@@ -72,7 +72,7 @@ body {
  * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 a {
-  color: #ec008c;
+  color: #f3a7ca;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -95,7 +95,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "domine-regular", serif;
+  /* font-family: "domine-regular", serif; */
   color: #000000;
   font-style: normal;
   font-weight: normal;
@@ -162,7 +162,6 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1.3rem;
   line-height: 1.385;
-  text-transform: uppercase;
   letter-spacing: .16rem;
 }
 
@@ -367,7 +366,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ec008c;
+  background: #f3a7ca;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -376,7 +375,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #ec008c;
+  color: #f3a7ca;
 }
 
 dd {
@@ -501,7 +500,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #ec008c;
+  background: #f3a7ca;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -545,7 +544,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-  background-color: #ec008c;
+  background-color: #f3a7ca;
   width: 4px;
   height: 35px;
   border-radius: 2px;
@@ -776,7 +775,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ec008c;
+  -webkit-text-fill-color: #f3a7ca;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -835,8 +834,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #ec008c;
-  border-color: #ec008c;
+  background: #f3a7ca;
+  border-color: #f3a7ca;
   color: #FFFFFF;
 }
 
@@ -1062,7 +1061,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #ec008c;
+  color: #f3a7ca;
 }
 
 .stats-tabs li a em {
@@ -1085,7 +1084,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   min-height: 720px;
-  background-color: #111111;
+  background-color: #eed3b7;
   position: relative; 
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -1229,7 +1228,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 60px;
+  right: 30px;
   top: 36px;
 }
 
@@ -1244,8 +1243,7 @@ input::-moz-focus-inner {
 }
 
 .home-logo img {
-  width: 100px;
-  height: 25px;
+  height: 105px;
 }
 
 
@@ -1266,7 +1264,7 @@ input::-moz-focus-inner {
   font-size: 1.4rem;
   line-height: 1.286;
   letter-spacing: .3rem;
-  color: white;
+  color: 000;
   margin-top: 0;
   margin-bottom: 3rem;
   padding-left: 55px;
@@ -1294,15 +1292,22 @@ input::-moz-focus-inner {
 
 .home-content__main {
   max-width: 1400px;
-  padding-top: 15rem;
+  padding-top: 10rem;
   position: relative;
   overflow: hidden;
+}
+
+.home-content__main .font-size-20 {
+  font-size: 4rem;
+}
+
+.tiktok-link-icon {
+  background-image: url('images/icons/tiktok.svg');
 }
 
 .home-content__text p {
   font-size: 1.8rem;
   line-height: 2;
-  color: rgba(255, 255, 255, 0.3);
   margin-top: 6.6rem;
   margin-right: 15%;
 }
@@ -1351,8 +1356,8 @@ input::-moz-focus-inner {
 
 #mc-form input[type=submit] {
   color: #FFFFFF;
-  background: #ec008c;
-  border-color: #ec008c;
+  background: #f3a7ca;
+  border-color: #f3a7ca;
   padding: 0 25px;
   margin: 0;
   position: absolute;
@@ -1382,7 +1387,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__counter .time {
-  color: #FFFFFF;
+  color: #000;
   font-family: "metropolis-light", sans-serif;
   font-size: 3rem;
   line-height: 1;
@@ -1394,7 +1399,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__counter .time span {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(0, 0, 0, 0.3);
   font-size: 2rem;
   position: absolute;
   bottom: 0;
@@ -1413,7 +1418,7 @@ input::-moz-focus-inner {
   display: inline-block;
   font-family: "metropolis-regular", sans-serif;
   letter-spacing: 0;
-  background-color: #ec008c;
+  background-color: #f3a7ca;
   color: #FFFFFF;
   padding: 9px 12px;
   bottom: 1.3em;
@@ -1423,12 +1428,11 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 12rem;
-  background-color: #ec008c;
+  background-color: #f3a7ca;
   position: absolute;
   right: 84px;
   bottom: 0;
 }
-
 
 /* ------------------------------------------------------------------- 
  * ## home social - (_site-layout.scss) 
@@ -1482,7 +1486,7 @@ input::-moz-focus-inner {
 
 .home-social span {
   font-size: 1.2rem;
-  color: #ec008c;
+  color: #f3a7ca;
   right: 6rem;
   opacity: 0;
   visibility: hidden;
@@ -1672,7 +1676,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:1400px) {
   .home-logo {
-    right: 35px;
+    right: 0;
   }
 
   .home-content h1 {
@@ -1973,12 +1977,12 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-logo {
-    right: 30px;
+    top: 15px;
+    right: 0;
   }
 
   .home-logo img {
-    width: 95px;
-    height: 24px;
+    height: 74px;
   }
 
   .home-content h1 {
@@ -2066,7 +2070,7 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 1.286;
-  color: #ec008c;
+  color: #f3a7ca;
 }
 
 .info-wrapper {
@@ -2162,7 +2166,6 @@ html.no-csstransitions .home-content__main {
   border: 1px solid rgba(255, 255, 255, 0.12);
   font-family: "metropolis-medium", sans-serif;
   font-size: 12px;
-  text-transform: uppercase;
   letter-spacing: .3rem;
   color: white;
   height: 42px;
@@ -2204,7 +2207,7 @@ html.no-csstransitions .home-content__main {
   top: 50%;
   right: auto;
   bottom: auto;
-  background-color: #ec008c;
+  background-color: #f3a7ca;
   -webkit-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
@@ -2241,7 +2244,7 @@ html.no-csstransitions .home-content__main {
 
 .info-is-visible .info-menu-icon::before,
 .info-is-visible .info-menu-icon::after {
-  background-color: #ec008c;
+  background-color: #f3a7ca;
   -webkit-transition-delay: 0s, 0.2s;
   transition-delay: 0s, 0.2s;
 }
