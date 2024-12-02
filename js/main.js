@@ -95,14 +95,14 @@
         .on('update.countdown finish.countdown', function(event) {
 
             var str = '<div class=\"top\"><div class=\"time days\">' +
-                      '%D <span>day%!D</span>' + 
+                      '%D <span>zile</span>' + 
                       '</div></div>' +
                       '<div class=\"time hours\">' +
-                      '%H <span>H</span></div>' +
+                      '%H &nbsp <span>ore</span></div>' +
                       '<div class=\"time minutes\">' +
-                      '%M <span>M</span></div>' +
+                      '%M <span>m</span></div>' +
                       '<div class=\"time seconds\">' +
-                      '%S <span>S</span></div>';
+                      '%S <span>s</span></div>';
 
             $(this)
             .html(event.strftime(str));
