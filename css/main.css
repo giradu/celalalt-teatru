@@ -58,7 +58,7 @@ body {
 
 body {
   background: #111111;
-  font-family: "metropolis-regular", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.7rem;
   font-style: normal;
   font-weight: normal;
@@ -95,7 +95,6 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  /* font-family: "domine-regular", serif; */
   color: #000000;
   font-style: normal;
   font-weight: normal;
@@ -170,7 +169,6 @@ p img {
 }
 
 p.lead {
-  font-family: "metropolis-light", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.8;
@@ -197,12 +195,14 @@ b {
 
 em,
 i {
-  font-family: "metropolis-italic", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
 }
 
 strong,
 b {
-  font-family: "metropolis-bold", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
 }
 
 small {
@@ -2386,9 +2386,9 @@ html.no-csstransitions .home-content__main {
     left: 30px;
   }
 
-  .info-toggle::after {
+  /* .info-toggle::after {
     display: none;
-  }
+  } */
 
   .s-info {
     padding: 16.2rem 0 9rem;
