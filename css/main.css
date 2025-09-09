@@ -1103,7 +1103,7 @@ input::-moz-focus-inner {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/CT_fb_cover.png);
 }
 
 .s-home--static::before {
@@ -1274,7 +1274,7 @@ input::-moz-focus-inner {
 .home-content h3::before {
   content: "";
   display: block;
-  background-color: rgba(236, 0, 140, 0.6);
+  background-color: #f3a7ca;
   width: 40px;
   height: 1px;
   position: absolute;
@@ -1391,7 +1391,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__counter .time {
-  color: #000;
+  color: #fff;
   font-family: "metropolis-light", sans-serif;
   font-size: 3rem;
   line-height: 1;
@@ -1479,6 +1479,15 @@ input::-moz-focus-inner {
   transition: all 0.5s ease-in-out;
 }
 
+/* ensure image-based icons (e.g., TikTok SVG) align like font icons */
+.home-social__img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 36px;
+}
+
 .home-social i {
   font-size: 20px;
   right: 0;
@@ -1519,6 +1528,10 @@ input::-moz-focus-inner {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+}
+
+.home-social-mobile {
+  display: none;
 }
 
 
@@ -1743,6 +1756,11 @@ html.no-csstransitions .home-content__main {
     width: 32px;
   }
 
+  .home-social__img {
+    width: 32px;
+    height: 32px;
+  }
+
   .home-social span::after {
     right: -22px;
   }
@@ -1868,6 +1886,10 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
+  .home-social-mobile {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width:700px) {
@@ -1897,6 +1919,13 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width:600px) {
+
+  .s-home--static {
+      background-position: 54% 0%;
+      background-repeat: no-repeat;
+      background-size: 523%;
+  }
+
   .home-content h3 {
     font-size: 1.3rem;
   }
@@ -2011,9 +2040,6 @@ html.no-csstransitions .home-content__main {
 
 }
 
-
-
-
 /* ===================================================================
  * # info - (_site-layout.scss) 
  *
@@ -2025,8 +2051,8 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.3);
+  background-color: #3172B8;
+  color: #fff;
   padding: 21rem 0 9rem;
   overflow-y: auto;
   overflow-x: hidden;
@@ -2064,7 +2090,7 @@ html.no-csstransitions .home-content__main {
   content: "";
   width: 80px;
   height: 1px;
-  background-color: rgba(236, 0, 140, 0.6);
+  background-color: #f3a7ca;
   position: absolute;
   left: 3px;
   top: -3.6rem;
@@ -2188,7 +2214,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .info-toggle::after {
-  content: "More Info";
+  content: "Despre noi";
   display: block;
   position: absolute;
   top: 0;
@@ -2268,7 +2294,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .info-is-visible .info-toggle::after {
-  content: "close";
+  content: "Înapoi";
 }
 
 
