@@ -53,7 +53,7 @@ html {
 html,
 body {
   height: 100%;  /* prevent horizontal scrolling */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 body {
@@ -95,7 +95,7 @@ a:active {
  * 
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #000000;
+  color: #fff;
   font-style: normal;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -1083,7 +1083,7 @@ input::-moz-focus-inner {
   display: table;
   width: 100%;
   height: 100%;
-  min-height: 720px;
+  /* min-height: 720px; */
   background-color: #eed3b7;
   position: relative; 
   -webkit-transform: translateZ(0);
@@ -1091,7 +1091,7 @@ input::-moz-focus-inner {
   transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;  
-  height: 100vh;
+  height: 100%;
   overflow-y: auto;
   -webkit-transition: -webkit-transform 0.7s;
   transition: transform 0.7s;
@@ -1179,7 +1179,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .home-slider-img::before {
@@ -1292,7 +1292,7 @@ input::-moz-focus-inner {
 
 .home-content__main {
   max-width: 1400px;
-  padding-top: 10rem;
+  padding-top: 18rem;
   position: relative;
   overflow: hidden;
 }
@@ -1923,7 +1923,7 @@ html.no-csstransitions .home-content__main {
   .s-home--static {
       background-position: 54% 0%;
       background-repeat: no-repeat;
-      background-size: 523%;
+      background-size: 570%;
   }
 
   .home-content h3 {
@@ -1964,7 +1964,6 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:500px) {
   .s-home {
     min-height: 642px;
-    text-align: center;
   }
 
   .home-content h3 {
@@ -2143,7 +2142,7 @@ html.no-csstransitions .home-content__main {
 .info-social li {
   padding: .6rem 1.2rem .6rem 0;
   line-height: 3rem;
-  width: 50%;
+  /* width: 50%; */
   float: left;
 }
 
@@ -2210,17 +2209,19 @@ html.no-csstransitions .home-content__main {
 
 .info-toggle:hover,
 .info-toggle:focus {
-  color: #FFFFFF;
+  color: rgb(243, 167, 202);
+;
 }
 
 .info-toggle::after {
-  content: "Despre noi";
+  content: "Teatru invizibil / cetățean vizibil";
   display: block;
   position: absolute;
   top: 0;
-  right: -120px;
-  width: 120px;
+  right: -312px;
+  width: 316px;
   padding-left: 12px;
+  text-decoration: underline;
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.5s ease-in-out;
@@ -2383,6 +2384,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:400px) {
   .info-toggle {
+    top: 85px;
     left: 30px;
   }
 
