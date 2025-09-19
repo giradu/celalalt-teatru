@@ -2385,7 +2385,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width:400px) {
   .info-toggle {
     top: 85px;
-    left: 30px;
+    left: 22px;
   }
 
   /* .info-toggle::after {
