@@ -53,7 +53,7 @@ html {
 html,
 body {
   height: 100%;  /* prevent horizontal scrolling */
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -2411,3 +2411,4 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
+
