@@ -254,6 +254,25 @@ blockquote cite a:visited {
   border: none;
 }
 
+.button-bilete-bkg {
+  width: 110px;
+  height: 45px;
+  background-image: url(../images/button-empty.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-bilete-bkg .bilete-link {
+     display: block;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: 700;
+}
+
+.bilete-link i {
+  margin-right: 7px;
+}
+
 abbr {
   font-family: "metropolis-bold", sans-serif;
   font-variant: small-caps;
@@ -2411,4 +2430,3 @@ html.no-csstransitions .home-content__main {
 }
 
 /*# sourceMappingURL=main.css.map */
-
