@@ -260,10 +260,11 @@ blockquote cite a:visited {
   background-image: url(../images/button-empty.png);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
 }
 
 .button-bilete-bkg .bilete-link {
-     display: block;
+    display: block;
     text-align: center;
     padding-top: 7px;
     font-weight: 700;
@@ -271,6 +272,10 @@ blockquote cite a:visited {
 
 .bilete-link i {
   margin-right: 7px;
+}
+
+.button-bilete-bkg:hover {
+  cursor: pointer;
 }
 
 abbr {
@@ -1561,7 +1566,7 @@ input::-moz-focus-inner {
   z-index: 502;
   font-size: 1.5rem;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.2);
+  color: fff;
   padding: 30px 60px 42px;
   position: absolute;
   left: 0;
