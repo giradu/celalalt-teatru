@@ -620,6 +620,7 @@ textarea {
 
   [class*="col-"] {
     padding: 0 10px;
+    width: 100%;
   }
 
   .mob-1-4 {

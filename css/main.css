@@ -254,6 +254,10 @@ blockquote cite a:visited {
   border: none;
 }
 
+.home-buttons-wrap {
+  display: flex;
+}
+
 .button-bilete-bkg {
   width: 110px;
   height: 45px;
@@ -261,6 +265,7 @@ blockquote cite a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .button-bilete-bkg .bilete-link {
@@ -276,6 +281,11 @@ blockquote cite a:visited {
 
 .button-bilete-bkg:hover {
   cursor: pointer;
+}
+
+.program-wrap h1 {
+  margin: 20px 0;
+
 }
 
 abbr {
@@ -1336,7 +1346,7 @@ input::-moz-focus-inner {
 .home-content__text p {
   font-size: 1.8rem;
   line-height: 2;
-  margin-top: 6.6rem;
+  margin-top: 1.8rem;
   margin-right: 15%;
 }
 
